@@ -6,6 +6,12 @@
     <title>Document</title>
 </head>
 <body>
+    <h1>Contact</h1>
+    <ul>
+        <a href="index.php"><li>Home</li></a>
+        <a href="about.php"><li>About</li></a>
+        <a href="contact.php"><li>Contact</li></a>
+    </ul>
     <form action="contact-sent.php" method="post">
         <label>Enter your name: <label>
         <input type="text" id="name" name="name">

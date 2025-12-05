@@ -8,6 +8,11 @@
 <body>
     <?php
     echo "<h1>About</h1>";
+    echo "<ul>
+    <a href=" . "index.html" . "><li>Home</li></a>
+    <a href=" . "about.php" . "><li>About</li></a>
+    <a href=" . "contact.php" . "><li>Contact</li></a>
+    </ul>";
     $indexedArray = ["Lorem ipsum dolor sit amet.", 
     "Lorem ipsum dolor sit amet, consectetur adipisicing.",
     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, iusto."];
